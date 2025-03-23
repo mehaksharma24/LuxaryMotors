@@ -1,6 +1,6 @@
+import { AlertCircle, CheckCircle, Send } from 'lucide-react';
 import React, { useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -118,8 +118,33 @@ const Contact = () => {
           </div>
         </div>
       </div>
+        {/*  */}
+      <div className="bg-gray-100 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900"> Reach out to us directly for inquiries or visit our office.</h2>
+          </div>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold text-gray-800">Address</h3>
+              <p className="mt-2 font-semibold text-gray-600">Suite 443-80 Atlantic Ave, 4th floor</p>
+              <p className="text-gray-600 font-semibold">Toronto, ON M6K1X9</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold text-gray-800 font-semibold">Phone</h3>
+              <p className="mt-2 text-gray-600 font-semibold">(647) 470-8387</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg">
+              <h3 className="text-xl font-semibold text-gray-800 font-semibold">Email</h3>
+              <p className="mt-2 text-gray-600 font-semibold">contact.slandco@gmail.com</p>
+            </div>
+          </div>
+          </div>
+          </div>
 
       {/* Contact Form */}
+      
+                  
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="max-w-3xl mx-auto">
           <form onSubmit={handleSubmit} className="bg-white shadow-2xl rounded-2xl p-12">
@@ -253,7 +278,9 @@ const Contact = () => {
                   <AlertCircle className="h-6 w-6 mr-2" />
                   <p className="text-lg">There was an error sending your message. Please try again.</p>
                 </div>
+                
               )}
+              
             </div>
           </form>
         </div>

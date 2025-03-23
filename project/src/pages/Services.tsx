@@ -116,6 +116,30 @@ const Services = () => {
           ))}
         </div>
       </div>
+              {/*  */}
+              <div className="bg-black">
+              <div className="bg-white-100 py-12 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-white-900"> Reach out to us directly for inquiries or visit our office.</h2>
+          </div>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="bg-white p-8 rounded-lg shadow-lg text-black">
+              <h3 className="text-xl font-semibold text-black-800">Address</h3>
+              <p className="mt-2 font-semibold text-black-600">Suite 443-80 Atlantic Ave, 4th floor</p>
+              <p className="text-white-600 font-semibold">Toronto, ON M6K1X9</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg text-black">
+              <h3 className="text-xl font-semibold text-black-800 font-semibold">Phone</h3>
+              <p className="mt-2 text-black-600 font-semibold">(647) 470-8387</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-lg text-black">
+              <h3 className="text-xl font-semibold text-black-800 font-semibold">Email</h3>
+              <p className="mt-2 text-black-600 font-semibold">contact.slandco@gmail.com</p>
+            </div>
+          </div>
+          </div>
+          </div></div>
     </div>
   );
 };
