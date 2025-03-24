@@ -67,7 +67,7 @@ const Home = () => {
             <span className="block mt-2 text-4xl md:text-6xl">Perfect Dealer</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl opacity-90">
-          Seamless Dealer-to-Dealer Transactions. Smarter, Faster, and Hassle-Free. Get Instant Quotes & Maximize Your Inventory Today!
+          Effortless Dealer-to-Dealer Transactions. Quicker, Smoother, and Stress-Free. Get Instant Quotes & Optimize Your Inventory Today!
           </p>
           <div className="flex gap-6">
             <Link
